@@ -9,5 +9,5 @@ if (random1>random2){
 else{
     document.querySelector("h1").innerHTML="Tie";
 }
-document.querySelector(".img1").setAttribute("src","images/dice" + random1 + ".png");
-document.querySelector(".img2").setAttribute("src","images/dice" + random2 + ".png");
+document.querySelector(".img1").setAttribute("src","dice" + random1 + ".png");
+document.querySelector(".img2").setAttribute("src","dice" + random2 + ".png");
